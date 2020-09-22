@@ -84,11 +84,18 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
-}
-.logo-letter {
   color: #2196f3;
 }
+.logo-first {
+  color: var(--accent-color);
+}
+.logo-second {
+  color: #000000;
+}
+.logo-second-footer {
+  color: #ffffff;
+}
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -112,10 +119,15 @@ img {
 /*==================== Header end ==============*/
 
 /*==================== HERO ==============*/
-
-/* .hero {
+.hero {
   background-color: #2f303a;
-} */
+}
+
+.hero .conteiner {
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -123,8 +135,12 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0px auto;
+  margin-bottom: 30px;
 }
+
 .modal-button {
   font-family: var(--main-font);
   font-style: normal;
@@ -133,10 +149,40 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding: 12px;
+  min-width: 200px;
+  height: 50px;
+  background: #2196f3;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
+
 /*==================== HERO end==============*/
 
 /* ================== HOW-WE-WORK================ */
+.how-we-work .conteiner {
+  display: flex;
+}
+
+.how-we-work-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.how-we-work-text {
+  width: 270px;
+  height: 75px;
+}
+.how-we-work-title {
+  padding-bottom: 10px;
+}
+
+.how-we-work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .how-we-work-title {
   font-weight: 700;
   font-size: 14px;
@@ -154,7 +200,16 @@ img {
 }
 /* ================== HOW-WE-WORK end ================ */
 
-/* ================== What we do ================ */
+/* ================== What are we doing ================ */
+.we-do-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.we-do .we-do-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -162,28 +217,69 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
-/* ================== What we do end ================ */
+/* ================== What are we doing end ================ */
 
 /* ================== Our team ================ */
-.our-team-title {
+.our-team {
+  background-color: #f5f4fa;
+}
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.team-item {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  /* padding-bottom: 94px; */
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-.our-team-subtitle {
+.team-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  /* padding-bottom: 100px; */
 }
 /* ================== Our team end ================ */
+
+/* ================== Footer ================ */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.footer .address {
+  padding-bottom: 50px;
+}
+.address-item {
+  padding-bottom: 9px;
+}
+
+/* ================== Footer end ================ */
 
 /* ================== Portfolio ================ */
 
