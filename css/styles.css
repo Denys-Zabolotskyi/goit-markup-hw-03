@@ -7,6 +7,8 @@ Roboto normal 400, 500, 700, 900
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
 }
 
 *,
@@ -20,20 +22,25 @@ body {
   font-family: var(--main-font);
   font-style: normal;
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 .address {
   font-style: normal;
 }
+
 .conteiner {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 img {
   display: block;
 }
@@ -86,13 +93,12 @@ img {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.logo-first {
-  color: var(--accent-color);
-}
-.logo-second {
+
+.logo-light-theme {
   color: #000000;
 }
-.logo-second-footer {
+
+.logo-dark-theme {
   color: #ffffff;
 }
 
@@ -103,6 +109,7 @@ img {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .address-link {
   font-weight: 500;
   font-size: 14px;
@@ -110,6 +117,7 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .navigation-list-link:hover,
 :focus,
 .address-link:hover,
@@ -155,12 +163,8 @@ img {
   background: #2196f3;
   border-radius: 4px;
   display: block;
-  margin: 0 auto;
-}
-
-/*==================== HERO end==============*/
-
-/* ================== HOW-WE-WORK================ */
+  margin: 0 auto;}
+/*==================== HERO end================*/
 .how-we-work .conteiner {
   display: flex;
 }
@@ -235,6 +239,8 @@ img {
   height: 368px;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   /* padding-bottom: 94px; */
 }
 
@@ -250,8 +256,7 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   padding-top: 30px;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px;}
 .team-subtitle {
   font-weight: 400;
   font-size: 16px;
@@ -259,7 +264,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  /* padding-bottom: 100px; */
 }
 /* ================== Our team end ================ */
 
@@ -278,25 +282,27 @@ img {
 .address-item {
   padding-bottom: 9px;
 }
-
 /* ================== Footer end ================ */
 
-/* ================== Portfolio ================ */
+/* ================== PORTFOLIO PAGE ================ */
 
 /* ================== Button ================ */
-.button-link {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  color: #212121;
+.button-list {
+  display: flex;
 }
-.button-link:hover,
-.button-link:focus {
-  color: #ffffff;
-}
+
+.button-link{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+
+
 /* ================== Button end ================ */
 
 .portfolio-title {
@@ -312,4 +318,4 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
-}
+} */
